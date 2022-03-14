@@ -65,25 +65,24 @@ values ('Sales')
        ('IT');
 	
 insert into zip_code (zip_code, city, province)
-values ('')
-       (''),	   
-       (''),	   
-       (''),
-	   (''),
-	   (''),
-	  (''),
-	  (''),
-      (''),
-	  (''),
-       (''),	   
-       (''),	   
-       (''),
-	   (''),
-	   (''),
-	  (''),
-	  (''),
-      ('');
-	
+values ('1234', 'Johannesburg', 'Gauteng'),
+       ('2345', 'Pretoria', 'Gauteng'),	   
+       ('3456', 'Bloemfontein', 'Free-State'),	   
+       ('4567', 'Welkom', 'Free-State'),
+	   ('5678', 'Springbok', 'Nothern-Cape'),
+	   ('6789', 'Kimberly', 'Nothern-Cape'),
+	   ('7891', 'Cape-Town', 'Western-Cape'),
+	   ('8912', 'Paarl', 'Western-Cape'),
+       ('9123', 'Bisho', 'Eastern-Cape'),
+	   ('1345', 'East-London', 'Eastern-Cape'),
+       ('2456', 'Bela-Bela', 'Limpopo'),	   
+       ('3567', 'Massina', 'Limpopo'),	   
+       ('4678', 'Harry-Gwala', 'Kwazulu-Natal'),
+	   ('5789', 'Durban', 'Kwazulu-Natal'),
+	   ('6891', 'Belfast', 'Mpumalanga'),
+	   ('7912', 'Belfour', 'Mpumalanga'),
+	   ('8123', 'Delaryville', 'North-West'),
+       ('9145', 'Groot-Marico', 'North-West');
 	
 insert into status(status) 
 values ('Single')
@@ -109,8 +108,8 @@ values (1,3),
 	   
 	
 insert into intrest (intrest)
-values ('') ,
-       ('') ,	   
+values (''),
+       (''),	   
        (''),	   
        (''),	   
        ('');
@@ -123,27 +122,22 @@ values (''),
        ('');
 	
 insert into my contacts (last_name, first_name, phone, email, gender, birhtday)
-values ('Jordaan', 'Sean', 0982727373, 'jordaan@gmail', 'M', 1993)
-       ("Bradley Hubbard","(762) 142-3874",'rci.quis.lectus@yahoo.org"),
-  ("Zenia Mccarthy","(817) 367-6473","ut@google.com"),
-  ("Bert Luna","1-572-375-1722","phasellus.in@google.net"),
-  ("Lucius Rodriguez","1-287-704-3616","duis.risus@outlook.org"),
-  ("Charde Hardy","1-578-630-1387","cum.sociis@aol.couk");
-
-       ('') NOT NULL,	   
-       ('')NOT NULL,	   
-       ('')NOT NULL,	   
-       ('')NOT NULL
-	   ('') NOT NULL,
-       ('') NOT NULL,	   
-       ('')NOT NULL,	   
-       ('')NOT NULL,	   
-       ('')NOT NULL;
-	
-
-	
-
-	
+values ('Jordaan', 'Sean', 0982727373, 'jordaan@gmail', 'M', 1993),
+       ('Jone', 'Suzan', 0825454789, 'suzanj@gmail', 'F', 1988),
+       ('Robot', 'Elliot', 089565485, 'mrrobot@gmail', 'M', 1990), 
+       ('Johnson', 'Janet', 0865456545, 'jj@gmail', 'F', 1985)
+       ('Durdan', 'Tyler', 0115856542, 'durdanty@gmail', 'M', 1970),
+       ('Paulson', 'Robert', 0895654123, 'robert.paulson@gmail0', 'M',1975),
+	   ('Jackman', 'Tracy', 0826548971, 'tj@gmail','F', 1999),
+	   ('Supertramp', 'Alexander', 072321568456, 'superalex@gmail', 'M', 1992),
+	   ('Kray', 'Regenald', 0765482525, 'regiek@gmail', 'F', 1998),
+	   ('Hubbard', 'Bradley', 0811423874, 'orci.quis.lectus@yahoo.org', 'F', 1999),
+       ('Mccarthy', 'Zenia', 0833676473,'ut@google.com', 'F', 2000),
+       ('Luna', 'Bert' , 0853751722, 'phasellus.in@google.net', 'M', 1985),
+       ('Rodriguez', 'Lucius' , 0827043616,'duis.risus@outlook.org', 'M', 1999),
+       ('Hardy', 'Charde' , 0866301387, 'cum.sociis@aol.couk', 'M', 1995),
+       ('Visser', 'Bianca', 0865475682, 'visserb@gmail', 'F', 2000);  
+       	
 
 	
 	
